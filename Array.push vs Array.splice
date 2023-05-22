@@ -1,0 +1,10 @@
+//Let myArray is your array
+//Let myObject is your object
+
+var myObject = {field: "EstimatedStartTime", type: "date", displayName: "Estimated Start Time"};
+myArray.push(myObject);
+//After push command, myObject will be added at the end of your array.
+
+
+//but if I want to add on specific index(in my case 3), I will write the following command instead of push command.
+myArray.splice(3, 0, myObject); 
